@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=z26zbiGJnd4
+
+https://www.youtube.com/watch?v=z26zbiGJnd4
+https://other-levels.com/blogs/datasets
+
+=IF(E2>=50,"Senior",IF(E2>=30,"Adult","Teenager"))

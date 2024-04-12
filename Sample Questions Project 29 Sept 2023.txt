@@ -1,0 +1,35 @@
+Sample Questions
+- Copmare the sales and orders using single chart.
+- Which month got the highest sales and orders?
+- Who purchased more-men or women in 2022?
+- What are diffrenet order status in 2022?
+- List top 10 states contributing to the sales ?
+- Relation between age and gender based in number 
+- Whhich channel is contributing to maxumum sales?
+- Higest selling category?, etc.
+
+
+1 Data cleaning - Done
+2 Data Processing - Calculation 
+	Condition1 E2>=50 Senior
+	Condition2 E2>=30 Adult
+	Condition3 E3>=29 to 18 Teenager
+
+	=IF(E2>=50,"Senior",IF(E2>=30,"Adult","Teenager"))
+	Change the value in the E Columne " Paste as value"
+
+Month extract from date G columne
+	=Text(G2,"mmm")= Dec
+	=Text(G2,"mmmm")=December
+3 Data analysis
+	Pivote Tabel
+		Samission Value - Amount 
+				- Order ID
+		Rows		- Month
+
+
+	Grand Total - Off for Rows and Columins
+	
+	Pivote Table Analyze
+	Pivote Chart -Combo -Line chart - Choose Count Order ID
+
