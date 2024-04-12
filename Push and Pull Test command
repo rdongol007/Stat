@@ -31,6 +31,9 @@ Set username and email
 
 6. git push -u origin <branch_name
 
+7 git pull -u main
+
+8 git add commit " pull change"
 
 …or create a new repository on the command line
 echo "# 12-April-2024" >> README.md
